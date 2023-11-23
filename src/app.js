@@ -4,7 +4,7 @@
 const express = require('express');
 const { engine } = require('express-handlebars');
 const myconnection = require('express-myconnection');
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const session = require('express-session');
 const bodyParser = require('body-parser');
 const { Session } = require('express-session');
